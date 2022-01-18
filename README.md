@@ -10,6 +10,7 @@ This Classification model uses Imagenet's weights, a well known trained model in
 The dataset includes 108 images of cars and Amazon vans and 110 images of USPS mailtrucks.
 
 # How to use:
+Download training and validation data from linked google drive.\
 The classifier automatically uses image augementation when loading images into the dataset.\
 Make sure the data folder is in the same location as classifier.py or you must specify a new path to load the images in from.\
 Once done, the model will train on 10 epochs. The classifier also includes a basic peice of code to load a single image and classify it.
